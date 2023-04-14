@@ -57,6 +57,7 @@ while is_game_on:
     screen.update()
     time.sleep(ball1.move_speed)
 
+    # check if ball shot or not
     if shoot:
         ball1.move_ball()
 
