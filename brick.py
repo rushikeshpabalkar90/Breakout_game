@@ -12,6 +12,4 @@ class Brick(Turtle):
 
     def collide(self):
         self.hideturtle()
-        print('ball hits')
-
-
+        self.goto(0, -295)
